@@ -1,0 +1,39 @@
+// Baseado no seu keymap atual, ajustado para RF2RX
+{
+  "behaviors": [
+    // Seus comportamentos originais (ex.: &mo, &kp, &tog)
+    {
+      "name": "MOMENTARY_LAYER_1",
+      "type": "momentary_layer",
+      "layer": 1
+    },
+    {
+      "name": "TOGGLE_LAYER_2",
+      "type": "toggle_layer",
+      "layer": 2
+    }
+    // ... (comportamentos restantes)
+  ],
+  "layers": [
+    // Camada 0 (Base)
+    [
+      // Esquerda
+      { "key": "Q", "behavior": "&kp Q" },
+      { "key": "W", "behavior": "&kp W" },
+      { "key": "E", "behavior": "&kp E" },
+      // ... (teclas restantes da esquerda)
+
+      // Direita
+      { "key": "P", "behavior": "&kp P" },
+      { "key": "O", "behavior": "&kp O" },
+      { "key": "I", "behavior": "&kp I" },
+      // ... (teclas restantes da direita)
+    ],
+    // Camada 1 (Numpad)
+    [
+      // ... (suas teclas do numpad)
+    ],
+    // Camadas 2-5 (Símbolos, Mouse, etc.)
+    // ... (suas camadas existentes)
+  ]
+}
